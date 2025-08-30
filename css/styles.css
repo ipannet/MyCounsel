@@ -1,0 +1,39 @@
+/* AI Widget Styles */
+.ai-widget {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #cd8b62;
+    color: white;
+    border-radius: 25px;
+    padding: 10px 20px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    z-index: 1000;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.ai-widget:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.25);
+}
+
+.ai-status-online { color: #28a745; font-weight: bold; }
+.ai-status-offline { color: #dc3545; font-weight: bold; }
+.ai-status-unknown { color: #ffc107; font-weight: bold; }
+
+/* AI Analysis Button */
+.btn-ai-analysis {
+    background-color: #17a2b8;
+    color: white;
+    border: none;
+    padding: 4px 8px;
+    border-radius: 3px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.btn-ai-analysis:hover {
+    background-color: #138496;
+}
